@@ -47,7 +47,7 @@ body {
 }
 
 .author-image {
-    background: url(/assets/img/Author\ image.jpg) no-repeat center center;
+    background: url(assets/img/authorimage.jpg) no-repeat center center;
     background-size: cover;
     height: 100%;
     border-radius: 50%;
