@@ -14,7 +14,7 @@ body {
 }
 
 .card-container {
-    margin-top: 25vh;    
+    margin-top: 20vh;    
 }
 
 .card {
@@ -28,12 +28,14 @@ body {
     border-radius: 16px;
     background: #17141d;
     box-shadow: 0 0 3rem #000;
+    transition: transform 0.5s ease-in-out, box-shadow 0.5s ease-in-out;
+    
 }
 
 .card:hover {
     transform: translateY(-1rem);
     box-shadow: 0 0 3rem rgb(234, 234, 108);
-    transition: 0.5s;
+    
 }
 
 .author-image-container {
